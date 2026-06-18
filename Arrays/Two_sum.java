@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Arrays;
 
-public class Solution {
+public class Two_sum {
     // 1. The method must be inside the class
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -17,7 +17,7 @@ public class Solution {
 
     // 2. The main execution block must wrap the solver instantiation
     public static void main(String[] args) {
-        Solution solver = new Solution(); // This creates the object instance
+        Two_sum solver = new Two_sum(); // This creates the object instance
         
         int[] nums = {2, 7, 11, 15};
         int target = 9;
